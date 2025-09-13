@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Human 3D Muscles</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="app">
+    <canvas id="scene"></canvas>
+    <div id="hud">
+      <div class="title">Human 3D – Muscular Tension</div>
+      <div class="legend">
+        <span class="swatch low"></span>
+        <span>Low tension</span>
+        <span class="swatch mid"></span>
+        <span>Medium</span>
+        <span class="swatch high"></span>
+        <span>High</span>
+      </div>
+      <div class="controls">
+        <button id="resetBtn">Reset posture</button>
+        <span class="hint">Click a joint, drag to rotate. Right-drag or scroll to orbit/zoom.</span>
+      </div>
+    </div>
+  </div>
+
+  <script type="module" src="app.js"></script>
+</body>
+</html>
